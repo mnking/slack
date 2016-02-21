@@ -1,0 +1,21 @@
+{
+    "name": "mnking/slack",
+    "description": "Simple Push Message System For Slack Web Hook",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "authors": [
+        {
+            "name": "mnking",
+            "email": "kingads2@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Mnking\\Slack\\": "src/"
+        }
+    }
+}
